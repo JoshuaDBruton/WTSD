@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 class WTSDDataset(Dataset):
     def __init__(self, root_dir, transform=None, target_transform=None, concat_coords=False):
         """
-        DataSet for representing pairs of query and reference images (saved as .jpg and .npy files, respectively) with
+        DataSet for representing pairs of query and reference images (saved as .jpg and .npy files) with
         full pixel-level labels
         Two folders, inputs, for the query images, and targets, for the reference images, are required to be present in
         the top-level root directory
