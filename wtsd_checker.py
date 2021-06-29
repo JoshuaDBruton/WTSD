@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 import os
 
 
-TRAIN_PATH = "/home/joshua/Desktop/data/WTSD/train"
-VAL_PATH = "/home/joshua/Desktop/data/WTSD/validation"
-TEST_PATH = "/home/joshua/Desktop/data/WTSD-Test"
+TRAIN_PATH = "/PATH/TO/train"
+VAL_PATH = "/PATH/TO/validation"
+TEST_PATH = "/PATH/TO/WTSD-Test"
 
 INPUT_TRANSFORM = transforms.Compose([
     transforms.ToPILImage(),
